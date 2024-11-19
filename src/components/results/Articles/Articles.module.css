@@ -1,0 +1,39 @@
+.articles_container {
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 1346px;
+}
+
+.articles_h2 {
+    font-family: 'Ferry';
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.articles_button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.more_articles {
+    width: 305px;
+    height: 59px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--main-white);
+    background-color: var(--add-blue);
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}

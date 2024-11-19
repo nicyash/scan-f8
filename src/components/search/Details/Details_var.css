@@ -1,0 +1,36 @@
+.required {
+    color: var(--main-black);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.required.error {
+    color: #FF5959;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.form_field input.input_error,
+.form_field select.input_error {
+    border: 1px solid #FF5959;
+    outline-color: #FF5959;
+    color: #FF5959;
+}
+
+.form_field input.input-error,
+.form_field select.input-error {
+    border: 1px solid #FF5959;
+    outline-color: #FF5959;
+    color: #FF5959;
+}
+
+.date_input .error {
+    visibility: visible;
+}
+
+.error {
+    text-align: center;
+    color: #949494;
+}

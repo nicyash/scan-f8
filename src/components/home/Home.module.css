@@ -1,0 +1,10 @@
+main {
+    width: 100%;
+    background-color: var(--main-white);
+}
+
+.content {
+    padding-top: 93px;
+    max-width: 1440px;
+    flex-grow: 1;
+}

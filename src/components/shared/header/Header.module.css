@@ -1,0 +1,80 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--main-white);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 93px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 60px;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    flex: 0 0 236px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info a:hover {
+    opacity: 0.5;
+}
+
+.logo {
+    width: 141px;
+    align-items: center;
+    margin-right: 190px;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 251px;
+}
+
+.login {
+    opacity: 0.5;
+}
+
+.login:hover {
+    opacity: 1;
+}
+
+.login_button {
+    width: 65px;
+    flex: 0 0 65px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: var(--add-light-green);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.login_button:hover {
+    cursor: pointer;
+    background-color: var(--add-blue);
+    color: var(--main-white);
+}
+
+.vertical_divider {
+    box-sizing: content-box;
+    flex: 0 0 2px;
+    height: 26px;
+    background-color: var(--main-green);
+    border: none;
+    opacity: 0.6;
+    margin-right: 20px;
+    margin-left: 20px;
+    z-index: 1;
+}

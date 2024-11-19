@@ -1,0 +1,46 @@
+.card {
+    width: 415px;
+    height: 540px;
+    max-height: 540px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00000033;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colored {
+    max-height: 132px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.beginner_active {
+    border: 2px solid var(--add-yellow);
+}
+
+.pro_active {
+    border: 2px solid var(--add-light-green);
+}
+
+.business_active {
+    border: 2px solid var(--main-black);
+}
+
+.beginner {
+    background-color: var(--add-yellow);
+}
+
+.pro {
+    background-color: var(--add-light-green);
+}
+
+.business {
+    background-color: var(--main-black);
+}

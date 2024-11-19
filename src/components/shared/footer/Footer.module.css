@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    background-color: var(--main-green);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 137px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.address {
+    text-align: right;
+    line-height: 0.1;
+    p {
+        color: var(--main-white);
+    }
+}

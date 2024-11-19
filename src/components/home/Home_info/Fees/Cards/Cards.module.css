@@ -1,0 +1,161 @@
+.fee_name_container {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.fee_name_container, h3 {
+    margin: 0;
+    color: var(--main-black);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.fee_name_container, p {
+    color: var(--main-black);
+    font-size: 16px;
+    white-space: nowrap;
+    max-width: 90%;
+}
+
+.fee_icon_container {
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee_icon {
+    width: 93px;
+    height: 103px;
+}
+
+.fee_text_container {
+    align-self: flex-start;
+    width: 100%;
+    height: 80px;
+    padding-left: 30px;
+}
+
+.your_fee_container {
+    min-height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 12px;
+    margin-bottom: -10px;
+}
+
+.your_fee {
+    width: 134px;
+    height: 24px;
+    background-color: #3BA5E0;
+    border-radius: 10px;
+    color: var(--main-white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee_price_container {
+    margin-bottom: 30px;
+}
+
+.fee_prices {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.fee_prices, h3 {
+    margin: 0;
+    color: var(--main-black);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.old_fee_price {
+    margin: 0;
+    text-decoration: line-through;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #D2D2D2;
+}
+
+.card_text {
+    color: var(--main-black);
+    font-size: 18px;
+}
+
+.card_text_2 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-left: -10px;
+}
+
+.text {
+    margin-top: -30px;
+    font-size: 18px;
+}
+
+.fee_info {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: -30px;
+    margin-top: -20px;
+    margin-left: -12px;
+}
+
+.green_checkbox {
+    margin-right: 10px;
+    width: 24px;
+    height: auto;
+}
+
+.fee_global_button {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fees_button {
+    width: 335px;
+    height: 59px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--main-white);
+    background-color: var(--add-blue);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.fees_button_grey {
+    width: 335px;
+    height: 59px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    border: none;
+    transition: background-color 0.3s ease;
+    background-color: #D2D2D2;
+    color: var(--main-black);
+}
+
+.fees_button:not(:disabled):hover {
+    cursor: pointer;
+    background-color: var(--add-light-green);
+    color: var(--main-black);
+}

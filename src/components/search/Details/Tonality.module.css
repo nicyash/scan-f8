@@ -1,0 +1,47 @@
+.form_field {
+    margin-bottom: 30px;
+}
+
+.form_field_inputs label {
+    display: block;
+    font-size: 18px;
+}
+
+.form_field_inputs {
+    max-height: 82px;
+    min-height: 82px;
+    margin-bottom: 20px;
+}
+
+.sel {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    width: 242px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px #00000011;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    background-image: url('./../../../assets/icons/fallout_arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 20px;
+    cursor: pointer;
+}
+
+.tonality_wrapper {
+    position: relative;
+    width: 242px;
+    cursor: pointer;
+}
+
+.opt:focus, .sel:focus {
+    outline: 1px solid var(--main-green);
+    border-color: var(--main-green);
+}

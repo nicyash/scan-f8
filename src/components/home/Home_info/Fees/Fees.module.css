@@ -1,0 +1,15 @@
+.fees {
+    background-color: var(--main-white);
+    margin: 0 auto;
+    padding: 0 60px;
+    max-width: 1440px;
+    margin-bottom: 100px;
+}
+
+.fees_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -20px;
+    margin-right: -20px;
+}
